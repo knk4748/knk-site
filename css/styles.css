@@ -1,12 +1,21 @@
 #heading {
   padding: 7% 15%;
-  background-color: #65686D;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.89),rgba(65, 65, 65,.92)) ,url("../images/EIBL6472.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0 , 100% 0%, 100% 100% , 0% 100%);
   color: #fff;
+  font-size: 3.2rem;
   font-family: 'Share Tech', cursive;
 }
+.cardx{
+  font-size: inherit;
 
+
+}
+Education
 #greetings {
-  font-size: 4.8rem;
+  font-size: 4.8 rem;
 
   font-family: 'Lobster';
 }
@@ -57,7 +66,8 @@
   padding: 1% 0;
   background-color: #65686D;
   color: #fff;
-
+  /* background-image: ; */
+  /* clip-path: polygon(0% 0%,100% 0%, 100% 20vh, 100% 30vh) ; */
   font-size: 1.1rem;
   text-align: center;
 }
@@ -116,7 +126,7 @@ font-size: 1.4rem;
 
 }
 .skill-item:hover{
-  color:black;x
+  color:black;
 }
 
 .skill-header{
